@@ -1,0 +1,10 @@
+$navigation-background: $secondary-background-color;
+$navigation-height: 3em;
+
+nav {
+  background-color: $navigation-background;
+  border-bottom: 1px solid darken($navigation-background, 6%);
+  min-height: $navigation-height;
+  width: 100%;
+  z-index: 9999;
+}

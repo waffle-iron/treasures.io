@@ -1,0 +1,26 @@
+{
+  "name": "InternetOfIslands",
+  "description": "Description",
+  "author": "Andreas Knöpfle",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "brunch watch",
+    "build": "brunch build --production"
+  },
+  "dependencies": {
+    "angular": "^1.5.8",
+    "babel-brunch": "^6.0.6",
+    "bourbon": "^5.0.0-beta.6",
+    "bourbon-neat": "^1.8.0",
+    "normalize.css": "^5.0.0",
+    "pixi.js": "~4.0.0",
+    "sass-brunch": "^2.7.0"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.0.0",
+    "brunch": "^2.9.1",
+    "css-brunch": "^2.0.0",
+    "javascript-brunch": "^2.0.0"
+  },
+  "peerDependencies": {}
+}
