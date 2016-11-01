@@ -1,10 +1,26 @@
-$navigation-background: $secondary-background-color;
-$navigation-height: 3em;
+$nav-background: $secondary-background-color;
+$nav-height: 3em;
+$nav-color: $secondary-font-color;
+$nav-link-color: transparentize($nav-color, 0.3);
 
 nav {
-  background-color: $navigation-background;
-  border-bottom: 1px solid darken($navigation-background, 6%);
-  min-height: $navigation-height;
+  padding: $base-spacing;
+  background-color: $nav-background;
+  color: $nav-color;
+
+  border-bottom: 15px solid darken($nav-background, 6%);
+
+  min-height: $nav-height;
   width: 100%;
   z-index: 9999;
+
+  ul li a {
+    color: $nav-link-color;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      color: transparentize($nav-color, 0);
+    }
+  }
 }
