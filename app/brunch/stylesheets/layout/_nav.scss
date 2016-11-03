@@ -8,7 +8,7 @@ nav {
   background-color: $nav-background;
   color: $nav-color;
 
-  border-bottom: 15px solid darken($nav-background, 6%);
+  border-bottom: 15px solid $secondary-background-shadow;
 
   min-height: $nav-height;
   width: 100%;
